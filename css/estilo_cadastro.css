@@ -1,0 +1,207 @@
+@import url('http://fonts.cdnfonts.com/css/billabong');
+@import url('http://fonts.cdnfonts.com/css/segoe-pro');
+
+*{margin: 0%;
+    padding: 0;
+    box-sizing: border-box;}
+
+   body{background-color: rgba(250, 250, 250, 1);}
+
+   .cadastrar_TC{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center
+   }
+
+   .cadastro_conteudo_TC {
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 14px;
+    height: 73vh;
+    background-color: white;
+    margin-top: 58px;
+    border: 1px solid #dcdcdc;}
+
+    
+
+.cadastro_conteudo_TC h1{
+    font-family: 'Billabong', sans-serif;
+    color: black;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 76px;
+
+}
+
+.cadastro_conteudo_TC h2 {
+    font-family: 'Segoe Pro', sans-serif;
+    color: rgba(144, 144, 144, 1);
+    font-style: normal;
+    font-size: 19px;
+    line-height: 26px;
+    width: 12vw;
+    height: 8vh;
+}
+
+.cadastro_conteudo_TC input{
+        width: 24vw;
+        height: 4vh;  
+}
+
+.input_equipe{
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastrarbotao_TC {
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+}
+
+.cadastrarbotao_TC button {
+    width: 16vw;
+    height: 5vh;
+    background-color: #6464ff;
+    color: white;
+    font-size: 17px;
+}
+
+
+.informaçao_TC p{
+    font-family: 'Segoe Pro', sans-serif;
+color: rgba(144, 144, 144, 1);
+font-style: normal;
+font-size: 15px;
+display: flex;
+align-items: flex-end;
+margin-left: 14px;
+}
+
+.segundoquadrado_TC{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center
+
+}
+
+.alinharsegunfoquadrado_TC{
+
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-bottom: 14px;
+    height: 9vh;
+    background-color: white;
+    border: 1px solid #dcdcdc; 
+}
+
+.Texto_TC{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 81px;}
+
+    .Texto_TC h3 {
+        font-size: initial;
+        color: rgb(100, 99, 99);
+    } 
+
+.Texto_TC a{
+    margin-left: 10px;
+    color: blue;
+}
+
+
+
+.Partedefora_TC {
+    display: flex;
+    color: rgba(144, 144, 144, 1);
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Textopf_TC p {
+    font-family: 'Segoe Pro', sans-serif;
+    color: rgba(144, 144, 144, 1);
+    font-style: normal;
+    font-size: 18px;
+}
+
+.Imagens_TC{
+    margin-top: 14px;
+}
+
+@media (max-width:480px){
+
+    .cadastro_conteudo_TC {
+        width: 69%;}
+
+        .cadastro_conteudo_TC h2 {
+            font-size: 15px;
+            width: 76%;
+
+        }
+
+        .cadastro_conteudo_TC input {
+            width: 72%;
+        }
+
+        .cadastrarbotao_TC button {
+            width: auto;
+        }
+
+        .alinharsegunfoquadrado_TC {
+            width: 40vw;
+        }
+
+        .Texto_TC {
+            margin: 0px; 
+        }
+}
+
+@media (max-width:800px){
+
+    .cadastro_conteudo_TC {
+        width: 69%;}
+
+        .cadastro_conteudo_TC h2 {
+            font-size: 15px;
+            width: 76%;
+
+        }
+
+        .cadastro_conteudo_TC input {
+            width: 72%;
+        }
+
+        .cadastrarbotao_TC button {
+            width: auto;
+        }
+
+        .alinharsegunfoquadrado_TC {
+            width: 40vw;
+        }
+
+        .Texto_TC {
+            margin: 0px; 
+        }
+}
+
+
+
+
+
+  
